@@ -1,0 +1,34 @@
+
+
+#carts > div:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+#carts > div:first-child h1 {
+    font-size: 30px;
+    color: #0a472e;
+    font-weight: 500;
+    position: relative;
+    margin-left: 20px;
+}
+
+#carts > div:first-child h1::before {
+    position: absolute;
+    content: " ";
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 2px solid #bac34e;
+    left: -20px;
+    top: 20%;
+}
+
+.golden-link {
+    display: flex;
+    gap: 5px;
+    color: #bac34e;
+}
+.golden-link img {
+    width: 12px;
+    filter: invert(78%) sepia(15%) saturate(1378%) hue-rotate(24deg) brightness(94%) contrast(90%);
+}

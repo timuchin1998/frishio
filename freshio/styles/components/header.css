@@ -1,0 +1,25 @@
+header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+header p, header div a {
+    font-size: 14px;
+}
+
+header div {
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+}
+header div a {
+    color: #000;
+    transition: .4s;
+    
+}
+header div a:hover {
+    color: #bac34e;
+}

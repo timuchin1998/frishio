@@ -1,0 +1,16 @@
+body {
+    min-height: 100vh;
+    background-color: #fcf3ea;
+    padding: 0 2% 50px;
+    position: relative;
+}
+
+#theme {
+    background-color: #0a472e;
+    color: #fff;
+    display: none;
+    padding: 5px 8px;
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 0;
+}
